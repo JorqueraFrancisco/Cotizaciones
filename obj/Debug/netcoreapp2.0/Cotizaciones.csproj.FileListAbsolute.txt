@@ -1,0 +1,10 @@
+c:\Users\fran_\Desktop\Cotizaciones-master\bin\Debug\netcoreapp2.0\Cotizaciones.deps.json
+c:\Users\fran_\Desktop\Cotizaciones-master\bin\Debug\netcoreapp2.0\Cotizaciones.runtimeconfig.json
+c:\Users\fran_\Desktop\Cotizaciones-master\bin\Debug\netcoreapp2.0\Cotizaciones.runtimeconfig.dev.json
+c:\Users\fran_\Desktop\Cotizaciones-master\bin\Debug\netcoreapp2.0\Cotizaciones.dll
+c:\Users\fran_\Desktop\Cotizaciones-master\bin\Debug\netcoreapp2.0\Cotizaciones.pdb
+c:\Users\fran_\Desktop\Cotizaciones-master\obj\Debug\netcoreapp2.0\Cotizaciones.csproj.CoreCompileInputs.cache
+c:\Users\fran_\Desktop\Cotizaciones-master\obj\Debug\netcoreapp2.0\Cotizaciones.AssemblyInfoInputs.cache
+c:\Users\fran_\Desktop\Cotizaciones-master\obj\Debug\netcoreapp2.0\Cotizaciones.AssemblyInfo.cs
+c:\Users\fran_\Desktop\Cotizaciones-master\obj\Debug\netcoreapp2.0\Cotizaciones.dll
+c:\Users\fran_\Desktop\Cotizaciones-master\obj\Debug\netcoreapp2.0\Cotizaciones.pdb
