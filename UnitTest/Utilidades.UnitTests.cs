@@ -28,7 +28,7 @@ namespace Utilities.UnitTests {
             bool prueba;
             prueba = utilidades.validarNombre("Gasper");
             Assert.False(prueba, " 1");
-            prueba = utilidades.validarNombre("asca133");
+            prueba = utilidades.validarNombre("asca");
             Assert.False(prueba, "2");
             prueba = utilidades.validarNombre("FiscoGasper");
             Assert.False(prueba, "3");
