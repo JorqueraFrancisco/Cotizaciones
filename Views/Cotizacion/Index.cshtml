@@ -1,0 +1,55 @@
+@model IEnumerable<Cotizaciones.Models.Cotizacion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+
+<p>
+    <a asp-action="Create">agregar cotización</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                 <th>
+                    @Html.DisplayNameFor(model => model.ID)
+                    
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.fechaModificacion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.fechaCreacion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.requisitos)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+        <td>
+                @Html.DisplayFor(modelItem => item.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaModificacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaCreacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.requisitos)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID">editar</a> |
+                <a asp-action="Details" asp-route-id="@item.ID">detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

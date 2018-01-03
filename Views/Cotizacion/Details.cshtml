@@ -1,0 +1,42 @@
+@model Cotizaciones.Models.Cotizacion
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Cotizacion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+         <dt>
+            @Html.DisplayNameFor(model => model.ID )
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ID)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaModificacion )
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.fechaModificacion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaCreacion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.fechaCreacion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.requisitos)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.requisitos)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ID">Editar</a> |
+    <a asp-action="Index">regrsar a lista</a>
+</div>
